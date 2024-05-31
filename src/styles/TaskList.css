@@ -56,13 +56,18 @@
   color: #BC006D;
   cursor: pointer;
   margin-top: 5px;
+  font-family: Inter;
+  font-size: 12px;
+
 }
 
 .task .status {
   background-color: #eee;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-left: 10px;
+  font-family: Inter;
+  font-size: 12px;
 }
 
 .task .status.done {
