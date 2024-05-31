@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.user-info .welcome {
+  margin-right: 20px;
+}
+
+.user-info .user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.user-info .bell-image {
+  margin-right: 25px;
+}
+
+.user-info .down-image {
+  margin-right: 18px;
+}
+
+.header-text {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .header-text {
+    font-size: 16px;
+  }
+}

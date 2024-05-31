@@ -1,0 +1,29 @@
+.main-layout {
+  display: flex;
+  padding: 20px;
+}
+
+.tasks-section {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.activity-feed-section {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .main-layout {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .tasks-section {
+    flex: 1;
+    margin-right: 0;
+  }
+
+  .activity-feed-section {
+    flex: 1;
+  }
+}
