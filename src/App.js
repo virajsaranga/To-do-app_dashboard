@@ -18,7 +18,7 @@ const App = () => {
             <Header />
             <SubHeader />
             <Routes>
-              <Route path="/" element={<MainLayout />} />
+              <Route path="/Home" element={<MainLayout />} />
             </Routes>
           </div>
         </div>
